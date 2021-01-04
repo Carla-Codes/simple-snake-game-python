@@ -24,7 +24,7 @@ while key != 27: # While they Esc key is not pressed
     window.border(0)
     #display the score and title
     window.addstr(0, 2, 'Score: ' + str(score) + ' ') 
-    window.addstr(0, 27, ' SNAKE! ') ]
+    window.addstr(0, 27, ' SNAKE! ')
     #Make the snake faster as it eats more
     window.timeout(140 - (len(snake)/5 + len(snake)/10)%120) 
     
