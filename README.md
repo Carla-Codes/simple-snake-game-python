@@ -2,4 +2,5 @@
 Pre-requisites:
  - Python 3
  - Your favorite text editor
- - The Python curses library (install by running: pip install windows-curses)
+ - The Python curses library:
+  `pip install windows-curses`
